@@ -1,0 +1,54 @@
+*{margin: 20px;font-family: Helvetica; box-sizing: border-box;}
+
+body{background-color: rgba(0, 0, 0, 0.865);}
+
+#title{text-align: center; font-size: 70px; color: rgb(71, 0, 125); background-color:rgb(182, 182, 182);border-radius: 5px;}
+
+#resetButton{width: fit-content; background-color:rgb(71, 0, 125); color:rgb(182, 182, 182); border-radius: 5px; padding: 10px; font-size: 50px; cursor: pointer; align-self: center;}
+
+#gameBox{display: flex; flex-direction: column; text-align: center; align-self: center;}
+
+#topBox{display: flex; flex-direction: row; background-color: rgb(182, 182, 182); width: fit-content;
+    align-self: center; height: fit-content;border-radius: 5px;}
+
+#yugiRoll{height:500px; background-color: rgb(0, 0, 36); width: 400px; align-self: center;
+    font-size: 40px; border-radius: 5px;color: rgb(146, 17, 64);
+    animation: yugiGlow 1s ease-in-out infinite alternate; cursor: pointer; object-fit: contain;}
+
+#yugiImg{height: 410px; width: auto; padding-right: 25px;}
+
+@keyframes yugiGlow{from {text-shadow: 0 0 5px gold, 0 0 10px gold,
+    0 0 15px darkblue, 0 0 20px darkblue, 0 0 25px darkblue, 0 0 30px darkblue, 0 0 35px darkblue;}
+    to {text-shadow: 0 0 10px gold, 0 0 15px darkblue,
+    0 0 20px darkblue, 0 0 25px darkblue, 0 0 30px darkblue, 0 0 35px darkblue, 0 0 40px darkblue;}}
+
+#WinnerStateMsg{color: rgb(71, 0, 125); width: 200px; display: flex; flex-direction: column; align-items: center; font-size: 30px; margin-top: 25%;}
+
+#kaibaRoll{height:500px; background-color: rgb(245, 244, 244); width: 400px; align-self: center;
+    font-size: 40px; border-radius: 5px;color: rgb(156, 156, 156);
+    animation: kaibaGlow 1s ease-in-out infinite alternate; cursor: pointer; object-fit: contain;}
+
+#kaibaImg{height: 409px; width: auto; padding-left: 25px;}
+
+@keyframes kaibaGlow{from {text-shadow: 0 0 5px rgb(255, 51, 194), 0 0 10px rgb(255, 51, 194),
+    0 0 15px rgba(0, 140, 255, 0.66), 0 0 20px rgb(0, 140, 255, 0.66), 0 0 25px rgb(0, 140, 255, 0.66), 0 0 30px rgb(0, 140, 255, 0.66),
+    0 0 35px rgb(0, 140, 255, 0.66);}
+                    to {text-shadow: 0 0 10px rgb(255, 51, 194), 0 0 15px rgb(0, 140, 255, 0.66),
+    0 0 20px rgb(0, 140, 255, 0.66), 0 0 25px rgb(0, 140, 255, 0.66), 0 0 30px rgb(0, 140, 255, 0.66), 0 0 35px rgb(0, 140, 255, 0.66),
+    0 0 40px rgb(0, 140, 255, 0.66);}}
+
+#bottomBox{display: flex; flex-direction: row; justify-content: center; width: fit-content; background-color: rgb(137, 137, 137); align-self: center; border-radius: 5px; margin-top: 0;}
+
+#yugi{display: flex; flex-direction: column; background-color: rgb(0, 0, 36); color: rgb(146, 17, 64); border-radius: 5px;}
+
+#yugiMsg{width: fit-content; font-size: 50px;}
+
+#yugiTotal{font-size: 75px;}
+
+#dieImg{height: fit-content;}
+
+#kaiba{display: flex; flex-direction: column;background-color: rgb(245, 244, 244); color: rgb(0, 140, 255, 0.66); border-radius: 5px;}
+
+#kaibaMsg{width: fit-content; font-size: 50px;}
+
+#kaibaTotal{font-size: 75px;}

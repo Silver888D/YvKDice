@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>YvKDice</title>
+</head>
+<body>
+    <header id="title">2 Time 2 Dice 2<br><button id="resetButton">Reset</button></header>
+    <div id="gameBox">
+        <div id="topBox">
+            <button id="yugiRoll">Yugi Roll<img id="yugiImg" src="./images/yugi.png"></button>
+            <div id="WinnerStateMsg">Roll To Begin</div>
+            <button id="kaibaRoll">Kaiba Roll<img id="kaibaImg" src="./images/kaiba.png"></button>
+        </div>
+        <div id="bottomBox">
+            <div id="yugi">
+                <div id="yugiMsg">Yugi Total</div>
+                <div id="yugiTotal">0</div>
+            </div>
+            <div id="dieImg"><img id="dieSide" src=""></div>
+            <div id="kaiba">
+                <div id="kaibaMsg">Kaiba Total</div>
+                <div id="kaibaTotal">0</div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
