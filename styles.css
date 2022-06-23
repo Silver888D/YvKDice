@@ -15,7 +15,7 @@ body{background-color: rgba(0, 0, 0, 0.865);}
     font-size: 40px; border-radius: 5px;color: rgb(146, 17, 64);
     animation: yugiGlow 1s ease-in-out infinite alternate; cursor: pointer; object-fit: contain;}
 
-#yugiImg{height: 410px; width: auto; padding-right: 25px;}
+#yugiImg{height: 430px; width: auto; padding-right: 25px;}
 
 @keyframes yugiGlow{from {text-shadow: 0 0 5px gold, 0 0 10px gold,
     0 0 15px darkblue, 0 0 20px darkblue, 0 0 25px darkblue, 0 0 30px darkblue, 0 0 35px darkblue;}
@@ -28,7 +28,7 @@ body{background-color: rgba(0, 0, 0, 0.865);}
     font-size: 40px; border-radius: 5px;color: rgb(156, 156, 156);
     animation: kaibaGlow 1s ease-in-out infinite alternate; cursor: pointer; object-fit: contain;}
 
-#kaibaImg{height: 409px; width: auto; padding-left: 25px;}
+#kaibaImg{height: 429px; width: auto; padding-left: 25px;}
 
 @keyframes kaibaGlow{from {text-shadow: 0 0 5px rgb(255, 51, 194), 0 0 10px rgb(255, 51, 194),
     0 0 15px rgba(0, 140, 255, 0.66), 0 0 20px rgb(0, 140, 255, 0.66), 0 0 25px rgb(0, 140, 255, 0.66), 0 0 30px rgb(0, 140, 255, 0.66),
