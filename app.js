@@ -8,6 +8,7 @@ const yugiTotal = document.getElementById("yugiTotal");
 const kaibaTotal = document.getElementById("kaibaTotal");
 const yugiDisable = () =>{yugiRollButton.disabled = true; kaibaRollButton.disabled = false}
 const kaibaDisable = () =>{kaibaRollButton.disabled = true; yugiRollButton.disabled = false}
+window.onload = function(){document.getElementById("TTD").play();}
 
 let yugiTotalAmount = 0
 let kaibaTotalAmount = 0
